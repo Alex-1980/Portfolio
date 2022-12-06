@@ -1,176 +1,250 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/site.css">
-  <script src="https://kit.fontawesome.com/39eb87b51f.js" crossorigin="anonymous"></script>
-  <title>Portfolio</title>
-</head>
-<body>
-  <!-- navbar -->
-  <nav class="topnav">
-    <a href="#" class="active">Logo</a>
-    <div id="nav-menu">
-      <a href="#about" title="about">About</a>
-      <a href="#projects" title="projects">Projects</a>
-      <a href="#services" title="services">Services</a>
-      <a href="#contact" title="contact">Contact</a>
-    </div>
-    <a href="javascript:void(0);" class="nav-icon" onclick="myToggle()">
-      <i class="fa fa-bars"></i>
-    </a>
-    <div id="underline"></div>
-  </nav>
+<html lang="en-us">
+    <head>
+    	<title>Chansoo Han - Portfolio</title>
 
-  <!-- header -->
-  <header>
-    <div id="slider">
-      <div class="theme-btn">
-        <input id="themeButton" type="button" value="Dark Mode" onclick="SwapTheme();">
-      </div>
-      <h1>I am Chasnoo Han</h1>
-      <p class="profile">Web Developer</p>
-      <div class="head-icons">
-        <a class="icon" href="https://www.facebook.com" title="facebook" target="_blank">
-          <i class="fa fa-facebook" aria-hidden="true"></i>
-        </a>
-        <a class="icon" href="https://www.twitter.com" title="twitter" target="_blank">
-          <i class="fa fa-twitter" aria-hidden="true"></i>
-        </a>
-        <a class="icon" href="https://www.instagram.com" title="instagram" target="_blank">
-          <i class="fa fa-instagram" aria-hidden="true"></i>
-        </a>
-        <a class="icon" href="https://www.pinterest.com" title="pinterest" target="_blank">
-          <i class="fa fa-pinterest-p" aria-hidden="true"></i>
-        </a>
-        <a class="icon" href="https://www.vimeo.com" title="vimeo" target="_blank">
-          <i class="fa fa-vimeo" aria-hidden="true"></i>
-        </a>
-      </div>
-    </div>
-  </header>
+    	<!-- meta -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- stylesheet -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.css">
+		<link rel="stylesheet" href="css/owl.theme.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/main.css">
 
-  <!-- main -->
-  <section id="about">
-    <div class="box">
-      <h2>About me</h2>
-      <div class="aboutMe">
-        <img src="/assets/images/about.jpg" alt="Chansoo">
-        <div class="text">
-          <h1>Hi all, I'm Chansoo</h1>
-          <p>
-            A passionate Full Stack Developer having an experience of building Web applications with HTML / CSS / javascript / Reactjs / ASP.net / Java and  photoshop / illustrator.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="projects">
-    <div class="box">
-      <h2>Projects</h2>
-      <div class="pro-box">
-        <div class="project">
-          <img class="pro-image" src="assets/images/portfolio.jpg" title="portfolio" alt="movie_master">
-          <div class="pro-title">Portfolio</div>
-          <div class="project-btn">
-            <a class="pro-btn" href="https://chansoohan-portfolio.netlify.app" target="_blank">See Live</a>
-            <a class="pro-btn code" href="https://github.com/Alex-1980/Portfolio.git" target="_blank">Source Code</a>
-          </div>
-        </div>
-        <div class="project">
-          <img class="pro-image" src="assets/images/hnm.jpg" title="h&m" alt="movie_master">
-          <div class="pro-title">H&M</div>
-          <div class="project-btn">
-            <a class="pro-btn" href="https://hnm-site.netlify.app" target="_blank">See Live</a>
-            <a class="pro-btn code" href="https://github.com/Alex-1980/Shopping-site.git" target="_blank">Source Code</a>
-          </div>
-        </div>
-        <div class="project">
-          <img class="pro-image" src="assets/images/pizza.png" title="pizza-order" alt="movie_master">
-          <div class="pro-title">Pizza</div>
-          <div class="project-btn">
-            <a class="pro-btn code" href="https://github.com/Alex-1980/RazorPizzaApp.git" target="_blank">Source Code</a>
-          </div>
-        </div>
-        <div class="project">
-          <img class="pro-image" src="assets/images/moviemaster.png" title="movie-master" alt="movie_master">
-          <div class="pro-title">Movie Master</div>
-          <div class="project-btn">
-            <a class="pro-btn code" href="https://github.com/Alex-1980/Movie_Master.git" target="_blank">Source Code</a>
-          </div>
-        </div>
-        <div class="project">
-          <img class="pro-image" src="assets/images/war.jpg" title="war-game" alt="movie_master">
-          <div class="pro-title">War Game</div>
-          <div class="project-btn">
-            <a class="pro-btn code" href="https://github.com/Alex-1980/War_Game.git" target="_blank">Source Code</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="services">
-    <div class="box">
-        <h2>Services</h3>
-        <div class="service-icons">
-          <img class="service-icon" src="assets/images/html_css.png" alt="html_css">
-          <img class="service-icon" src="assets/images/javascript.png" alt="javascript">
-          <img class="service-icon" src="assets/images/react.png" alt="javascript">
-          <img class="service-icon" src="assets/images/c-sharp.png" alt="c-sharp">
-          <img class="service-icon" src="assets/images/asp.png" alt="asp">
-          <img class="service-icon" src="assets/images/java.png" alt="java">
-          <img class="service-icon" src="assets/images/node.png" alt="java">
-          <img class="service-icon" src="assets/images/git.png" alt="java">
-          <img class="service-icon" src="assets/images/gitHub.jpg" alt="java">
-          <img class="service-icon" src="assets/images/photoshop.png" alt="photoshop">
-          <img class="service-icon" src="assets/images/illustrator.png" alt="illustrator">
-        </div>
-    </div>
-  </section>
-  <section id="contact">
-    <div class="box">
-        <h2>Contact</h2>
-        <form action="">
-          <div class="form-group">
-            <input type="email" id="email" placeholder="Email">
-          </div>
-          <div class="form-group">
-            <input type="text" id="subject" placeholder="Subject">
-          </div>
-          <div class="form-group">
-            <textarea id=message" cols="30" rows="10" placeholder="Enter your message"></textarea>
-          </div>
-          <div class="form-group">
-            <button type="submit">Send message</button>
-          </div>
-        </form>
-    </div>
-  </section>
+		<!-- google font -->
+        <link href='http://fonts.googleapis.com/css?family=Oswald:300,400' rel='stylesheet'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Oxygen:400,300' rel='stylesheet' type='text/css'>
+        <link href="http://fonts.googleapis.com/css?family=Rouge+Script" rel="stylesheet" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Milonga' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div class="content-block" id="header">
+            <div id="overlay-1">
+                <header id="site-header" class="clearfix">
+                    <div class="pull-left">
+                        <h1><a href="#">Web Developer</a></h1>
+                    </div>
+                    <div class="pull-right">
+                        <nav class="navbar site-nav" role="navigation">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                    <i class="fa fa-bars fa-2x"></i>
+                                </button>
+                            </div>
 
-  <!-- footer -->
-  <footer>
-    <p class="foot">©All right reserved. Chansoo Han</p>
-    <div class="foot-icon">
-      <a class="icon" href="https://www.facebook.com" title="facebook" target="_blank">
-        <i class="fa fa-facebook" aria-hidden="true"></i>
-      </a>
-      <a class="icon" href="https://www.twitter.com" title="twitter" target="_blank">
-        <i class="fa fa-twitter" aria-hidden="true"></i>
-      </a>
-      <a class="icon" href="https://www.instagram.com" title="instagram" target="_blank">
-        <i class="fa fa-instagram" aria-hidden="true"></i>
-      </a>
-      <a class="icon" href="https://www.pinterest.com" title="pinterest" target="_blank">
-        <i class="fa fa-pinterest-p" aria-hidden="true"></i>
-      </a>
-      <a class="icon" href="https://www.vimeo.com" title="vimeo" target="_blank">
-        <i class="fa fa-vimeo" aria-hidden="true"></i>
-      </a>
-    </div>
-  </footer>
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav">
+                                    <li class="active"><a href="#header"><i class="fa fa-home"></i> <span>Home</span></a></li>
+                                    <li><a href="#portfolio"><i class="fa fa-bookmark"></i> Portfolio</a></li>
+                                    <li><a href="#services"><i class="fa fa-thumbs-up"></i> Services</a></li>
+                                    <li><a href="#contact"><i class="fa fa-phone-square"></i> Contact</a></li>
+                                </ul>
+                            </div>  <!-- /.navbar-collapse -->
+                        </nav>
+                    </div>
+                </header>	<!-- site-header -->
+                
+                <div class="middle text-center clearfix">
+                    <div class="container">
+                        <h1 class="pro-name">Chansoo <!-- <span style="color: #71b644;" > -->Han<!-- </span> --></h1>
+                        <p class="tagline">Web Developer</p>
+                        <p class="about">
+                            A passionate Full Stack Developer having an experience of building Web applications with<br>HTML / CSS / javascript / Reactjs / ASP.net / Java and  photoshop / illustrator
+                        </p>
+                        <div class="skills">
 
-  <script src="scripts/jquery.js"></script>
-  <script src="scripts/site.js"></script>
-</body>
+                        </div>  <!-- skills -->
+                        <a href="#contact" target="_blank" class="btn btn-lg btn-hire wow animated zoomIn">Hire Me</a>
+                    </div>  <!-- container -->
+                </div>  <!-- middle -->
+                
+                <div class="bottom text-center">
+                    <a href="#portfolio"><i class="fa fa-angle-down fa-3x pulse"></i></a>
+                </div>
+            </div>  <!-- overlay-1 -->
+        </div>  <!-- content-block -->
+
+        <div class="content-block text-center" id="portfolio">
+            <header class="block-heading cleafix">
+                <h1>Latest Works</h1>
+                <!-- <p>Take a look at some of my recent products</p> -->
+            </header>
+
+            <div class="pro-box">
+                <div class="project">
+                    <img class="pro-image" src="img/hnm.jpg" title="h&m" alt="movie_master">
+                    <div class="pro-title">H&M</div>
+                    <div class="project-btn">
+                        <a class="pro-btn" href="https://hnm-site.netlify.app" target="_blank">See Live</a>
+                        <a class="pro-btn code" href="https://github.com/Alex-1980/Shopping-site.git" target="_blank">Source Code</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img class="pro-image" src="img/pizza.png" title="pizza-order" alt="movie_master">
+                    <div class="pro-title">Pizza</div>
+                    <div class="project-btn">
+                        <a class="pro-btn code" href="https://github.com/Alex-1980/RazorPizzaApp.git" target="_blank">Source Code</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img class="pro-image" src="img/moviemaster.png" title="movie-master" alt="movie_master">
+                    <div class="pro-title">Movie Master</div>
+                    <div class="project-btn">
+                        <a class="pro-btn code" href="https://github.com/Alex-1980/Movie_Master.git" target="_blank">Source Code</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img class="pro-image" src="img/war.jpg" title="war-game" alt="movie_master">
+                    <div class="pro-title">War Game</div>
+                    <div class="project-btn">
+                        <a class="pro-btn code" href="https://github.com/Alex-1980/War_Game.git" target="_blank">Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>  <!-- content-block -->
+
+        <div class="content-block text-center" id="services">
+            <header class="block-heading cleafix">
+                <h1>Services</h1>
+                <!-- <p>Take a look at some of my recent products</p> -->
+            </header>
+                <div class="service-icons">
+                    <img class="service-icon" src="img/html_css.png" alt="html_css">
+                    <img class="service-icon" src="img/javascript.png" alt="javascript">
+                    <img class="service-icon" src="img/react.png" alt="javascript">
+                    <img class="service-icon" src="img/c-sharp.png" alt="c-sharp">
+                    <img class="service-icon" src="img/asp.png" alt="asp">
+                    <img class="service-icon" src="img/java.png" alt="java">
+                    <img class="service-icon" src="img/node.png" alt="java">
+                    <img class="service-icon" src="img/git.png" alt="java">
+                    <img class="service-icon" src="img/gitHub.jpg" alt="java">
+                    <img class="service-icon" src="img/photoshop.png" alt="photoshop">
+                    <img class="service-icon" src="img/illustrator.png" alt="illustrator">
+                </div>
+            </div>
+        </div>
+            
+
+        <div class="content-block" id="contact">
+            <div class="overlay-3">
+                <header class="block-heading cleafix text-center">
+                    <h1>Contact</h1>
+                    <!-- <p>Feel Free to Contact</p> -->
+                </header>
+                <div class="block-content text-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 wow animated fadeInLeft">
+                                <form class="contact-form" action="form.php">
+                                    <input type="text" name="name" placeholder="Name" required>
+                                    <input type="email" name="email" placeholder="Email" required>
+                                    <textarea rows="5" name="message" placeholder="Say Something..." required></textarea>
+                                    <input type="submit" value="Submit">
+                                </form>
+                            </div>
+                            <div class="col-md-6 wow animated fadeInRight">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="contact-info">
+                                            <div class="clearfix">
+                                                <div class="rotated-icon">
+                                                    <div class="sqaure-nebir"></div>
+                                                    <i class="fa fa-map-marker"></i>
+                                                </div>
+                                                <p><strong> Address:</strong> London, ON, Canada
+                                                </p>
+                                            </div>
+                                            <div class="clearfix">
+                                                <div class="rotated-icon">
+                                                    <div class="sqaure-nebir"></div>
+                                                    <i class="fa fa-mobile"></i>
+                                                </div>
+                                                <p><strong> Cell No:</strong> 1-226-234-2776 </p>
+                                            </div>
+                                            <div class="clearfix">
+                                                <div class="rotated-icon">
+                                                    <div class="sqaure-nebir"></div>
+                                                    <i class="fa fa-envelope-o"></i>
+                                                </div>
+                                                <p>
+                                                    <strong> Email:</strong> devhan1207@gmail.com
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <ul class="social-box">
+                                        <li><a class="facebook-icon" href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a class="twitter-icon" href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a class="g-plus-icon" href="#"><i class="fa fa-google-plus"></i></a></li>
+                                        <li><a class="linkedin-icon" href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>	<!-- block-content -->
+            </div>	<!-- overlay-3 -->
+        </div>	<!-- content-block -->
+
+        <footer id="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="copyright">&copy; 2022 Developer</div>
+                    </div>
+                </div>
+            </div>
+        </footer>	<!-- site-footer -->
+
+
+        <!-- js -->
+        <script>
+            new WOW().init();
+        </script>
+
+        <script src="js/jquery-2.1.3.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.actual.min.js"></script>
+        <script src="js/isotope.pkgd.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/jquery.isonscreen.js"></script>
+       
+        <script src="js/main.js"></script>
+
+        <script>
+        	$(document).ready(function(){
+  				$('.owl-carousel').owlCarousel({
+    				loop:true,
+    				margin:10,
+    				autoplay:true,
+    				autoplayTimeout:3000,
+    				autoplayHoverPause:true,
+    				responsiveClass:true,
+    				responsive:{
+        					0:{
+					            items:1,
+        					},
+					        600:{
+					            items:1,
+					        },
+					        1000:{
+					            items:1,
+					        }
+    				}
+				})
+			});
+        </script>
+
+	</body>
 </html>
