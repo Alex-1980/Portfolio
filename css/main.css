@@ -706,24 +706,13 @@ input[type="submit"]:hover {
 	color: #fff;
 }
 
-.facebook-icon {
-    padding: 10px 17px;
-    border: 1px solid #44619D;
-    background-color: #44619D;
-}
-
-.facebook-icon:hover {
-    background-color: transparent;
-    color: #fff;
-}
-
-.twitter-icon {
+.github-icon {
 	padding: 10px 15px;
-	border: 1px solid #33CCFF;
-	background-color: #33CCFF;
+	border: 1px solid rgb(46, 45, 45);
+	background-color: rgb(46, 45, 45);
 }
 
-.twitter-icon:hover {
+.github-icon:hover {
 	background-color: transparent;
 	color: #fff;
 }
